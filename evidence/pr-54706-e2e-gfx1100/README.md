@@ -106,6 +106,8 @@ python3 scripts/greedy_probe.py <arm> <outdir>   # frozen prompts in results/pro
 
 01:28 prompts frozen → 02:28 baseline server up (dev538+g28c57456d) → 02:33 baseline greedy → 02:53–03:37 baseline full GSM8K → 03:40 baseline teardown (VRAM idle) → 03:47 PR server up (dev541+g16ce8ac88) → 03:50 PR greedy → 03:52–04:37 PR full GSM8K → 04:4x PR teardown → PR kernel test suite 54/54.
 
+Transparency note: a first baseline full-GSM8K attempt started 02:35 and was killed at ~02:37 after ~35 requests (runner was unintentionally terminated by a shell timeout; no results were written). The server kept running untouched and the successful run above is the only one that produced data. An earlier server launch attempt at 01:31 also died immediately (mid arm-switch library flux, before any model load); the serving engine used for all baseline data is the single instance initialized 02:28:47.
+
 ## Independent verification
 
 All checkpoints verified by independent adversarial subagents that re-collected evidence (recomputed metrics from raw samples, recounted hashes, checked /proc maps, git provenance):

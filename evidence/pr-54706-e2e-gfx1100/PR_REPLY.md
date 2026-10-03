@@ -24,6 +24,7 @@ vllm serve RedHatAI/gemma-3-27b-it-quantized.w4a16 \
   --gpu-memory-utilization 0.92 --max-model-len 8192 \
   --host 127.0.0.1 --port 8000
 ```
+(served from a local hash-verified download of that repo @ `2b537554`)
 
 Evaluation (identical for both arms):
 
