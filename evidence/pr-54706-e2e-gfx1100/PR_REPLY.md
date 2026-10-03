@@ -61,4 +61,4 @@ No material end-to-end accuracy regression was observed in the full GSM8K A/B, a
 model-level greedy non-determinism disappears with the PR.
 
 Full raw logs, commands, routing evidence, per-sample outputs and independent verification reports:
-<link>
+https://github.com/AIwork4me/vllm/tree/evidence/pr-54706-e2e-gfx1100/evidence/pr-54706-e2e-gfx1100
