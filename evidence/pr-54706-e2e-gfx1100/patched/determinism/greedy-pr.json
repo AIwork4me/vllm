@@ -1,0 +1,190 @@
+{
+  "ctx512": {
+    "arm": "pr",
+    "prompt_file": "/workspace/validation-54706-e2e/results/prompts/ctx512.txt",
+    "prompt_sha256": "0d7d2e87fd29427101eb877f8de9f87d6e8916b1647cf1cf7470545edf814507",
+    "runs": [
+      {
+        "run": 0,
+        "text": " The Rhind Mathematical Papyrus (1650 BC) is a significant example of Egyptian mathematics, containing problems in arithmetic, algebra (including fractions, linear equations, and geometric series), and was copied by Ahmes from an older document. Later, mathematicians like Euclid and Archimedes from the Hellenistic era systematized",
+        "sha256": "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "82fd4ffac7f7e75e093b6c198f7e6e20fedce4415e6107255745f11b11ae727f",
+        "wall_s": 2.45
+      },
+      {
+        "run": 1,
+        "text": " The Rhind Mathematical Papyrus (1650 BC) is a significant example of Egyptian mathematics, containing problems in arithmetic, algebra (including fractions, linear equations, and geometric series), and was copied by Ahmes from an older document. Later, mathematicians like Euclid and Archimedes from the Hellenistic era systematized",
+        "sha256": "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "82fd4ffac7f7e75e093b6c198f7e6e20fedce4415e6107255745f11b11ae727f",
+        "wall_s": 2.0
+      },
+      {
+        "run": 2,
+        "text": " The Rhind Mathematical Papyrus (1650 BC) is a significant example of Egyptian mathematics, containing problems in arithmetic, algebra (including fractions, linear equations, and geometric series), and was copied by Ahmes from an older document. Later, mathematicians like Euclid and Archimedes from the Hellenistic era systematized",
+        "sha256": "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "82fd4ffac7f7e75e093b6c198f7e6e20fedce4415e6107255745f11b11ae727f",
+        "wall_s": 2.0
+      },
+      {
+        "run": 3,
+        "text": " The Rhind Mathematical Papyrus (1650 BC) is a significant example of Egyptian mathematics, containing problems in arithmetic, algebra (including fractions, linear equations, and geometric series), and was copied by Ahmes from an older document. Later, mathematicians like Euclid and Archimedes from the Hellenistic era systematized",
+        "sha256": "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "82fd4ffac7f7e75e093b6c198f7e6e20fedce4415e6107255745f11b11ae727f",
+        "wall_s": 2.0
+      },
+      {
+        "run": 4,
+        "text": " The Rhind Mathematical Papyrus (1650 BC) is a significant example of Egyptian mathematics, containing problems in arithmetic, algebra (including fractions, linear equations, and geometric series), and was copied by Ahmes from an older document. Later, mathematicians like Euclid and Archimedes from the Hellenistic era systematized",
+        "sha256": "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "82fd4ffac7f7e75e093b6c198f7e6e20fedce4415e6107255745f11b11ae727f",
+        "wall_s": 2.0
+      },
+      {
+        "run": 5,
+        "text": " The Rhind Mathematical Papyrus (1650 BC) is a significant example of Egyptian mathematics, containing problems in arithmetic, algebra (including fractions, linear equations, and geometric series), and was copied by Ahmes from an older document. Later, mathematicians like Euclid and Archimedes from the Hellenistic era systematized",
+        "sha256": "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "82fd4ffac7f7e75e093b6c198f7e6e20fedce4415e6107255745f11b11ae727f",
+        "wall_s": 2.0
+      },
+      {
+        "run": 6,
+        "text": " The Rhind Mathematical Papyrus (1650 BC) is a significant example of Egyptian mathematics, containing problems in arithmetic, algebra (including fractions, linear equations, and geometric series), and was copied by Ahmes from an older document. Later, mathematicians like Euclid and Archimedes from the Hellenistic era systematized",
+        "sha256": "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "82fd4ffac7f7e75e093b6c198f7e6e20fedce4415e6107255745f11b11ae727f",
+        "wall_s": 2.0
+      },
+      {
+        "run": 7,
+        "text": " The Rhind Mathematical Papyrus (1650 BC) is a significant example of Egyptian mathematics, containing problems in arithmetic, algebra (including fractions, linear equations, and geometric series), and was copied by Ahmes from an older document. Later, mathematicians like Euclid and Archimedes from the Hellenistic era systematized",
+        "sha256": "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "82fd4ffac7f7e75e093b6c198f7e6e20fedce4415e6107255745f11b11ae727f",
+        "wall_s": 2.0
+      }
+    ],
+    "unique_outputs": 1,
+    "total_runs": 8,
+    "distinct_hashes": [
+      "e8eebe8a8d034785eec7346e969f7641339307f4e1f9abbe4a708c9b9e3fbd17"
+    ],
+    "first_divergence_char_vs_run0": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ]
+  },
+  "ctx8192": {
+    "arm": "pr",
+    "prompt_file": "/workspace/validation-54706-e2e/results/prompts/ctx8192.txt",
+    "prompt_sha256": "e95829f96b616a544cf8d9b9b7fda6d6405575b8f374cf6e0a4dc11245094ea0",
+    "runs": [
+      {
+        "run": 0,
+        "text": "\n\n**Summary of Main Effects:**\n\nThe text primarily focuses on two historical elements:\n\n1.  **Ancient Egyptian Mathematics:** The Rhind Mathematical Papyrus (1650 BC) represents a significant example of mathematical development in ancient Egypt.\n2.  **The Silk Road:** This network facilitated trade (",
+        "sha256": "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "228ae6d639285786d09d317dbf73a060589464ce097f9340949d3d18bccb464c",
+        "wall_s": 12.14
+      },
+      {
+        "run": 1,
+        "text": "\n\n**Summary of Main Effects:**\n\nThe text primarily focuses on two historical elements:\n\n1.  **Ancient Egyptian Mathematics:** The Rhind Mathematical Papyrus (1650 BC) represents a significant example of mathematical development in ancient Egypt.\n2.  **The Silk Road:** This network facilitated trade (",
+        "sha256": "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "228ae6d639285786d09d317dbf73a060589464ce097f9340949d3d18bccb464c",
+        "wall_s": 2.47
+      },
+      {
+        "run": 2,
+        "text": "\n\n**Summary of Main Effects:**\n\nThe text primarily focuses on two historical elements:\n\n1.  **Ancient Egyptian Mathematics:** The Rhind Mathematical Papyrus (1650 BC) represents a significant example of mathematical development in ancient Egypt.\n2.  **The Silk Road:** This network facilitated trade (",
+        "sha256": "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "228ae6d639285786d09d317dbf73a060589464ce097f9340949d3d18bccb464c",
+        "wall_s": 2.48
+      },
+      {
+        "run": 3,
+        "text": "\n\n**Summary of Main Effects:**\n\nThe text primarily focuses on two historical elements:\n\n1.  **Ancient Egyptian Mathematics:** The Rhind Mathematical Papyrus (1650 BC) represents a significant example of mathematical development in ancient Egypt.\n2.  **The Silk Road:** This network facilitated trade (",
+        "sha256": "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "228ae6d639285786d09d317dbf73a060589464ce097f9340949d3d18bccb464c",
+        "wall_s": 2.48
+      },
+      {
+        "run": 4,
+        "text": "\n\n**Summary of Main Effects:**\n\nThe text primarily focuses on two historical elements:\n\n1.  **Ancient Egyptian Mathematics:** The Rhind Mathematical Papyrus (1650 BC) represents a significant example of mathematical development in ancient Egypt.\n2.  **The Silk Road:** This network facilitated trade (",
+        "sha256": "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "228ae6d639285786d09d317dbf73a060589464ce097f9340949d3d18bccb464c",
+        "wall_s": 2.48
+      },
+      {
+        "run": 5,
+        "text": "\n\n**Summary of Main Effects:**\n\nThe text primarily focuses on two historical elements:\n\n1.  **Ancient Egyptian Mathematics:** The Rhind Mathematical Papyrus (1650 BC) represents a significant example of mathematical development in ancient Egypt.\n2.  **The Silk Road:** This network facilitated trade (",
+        "sha256": "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "228ae6d639285786d09d317dbf73a060589464ce097f9340949d3d18bccb464c",
+        "wall_s": 2.48
+      },
+      {
+        "run": 6,
+        "text": "\n\n**Summary of Main Effects:**\n\nThe text primarily focuses on two historical elements:\n\n1.  **Ancient Egyptian Mathematics:** The Rhind Mathematical Papyrus (1650 BC) represents a significant example of mathematical development in ancient Egypt.\n2.  **The Silk Road:** This network facilitated trade (",
+        "sha256": "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "228ae6d639285786d09d317dbf73a060589464ce097f9340949d3d18bccb464c",
+        "wall_s": 2.48
+      },
+      {
+        "run": 7,
+        "text": "\n\n**Summary of Main Effects:**\n\nThe text primarily focuses on two historical elements:\n\n1.  **Ancient Egyptian Mathematics:** The Rhind Mathematical Papyrus (1650 BC) represents a significant example of mathematical development in ancient Egypt.\n2.  **The Silk Road:** This network facilitated trade (",
+        "sha256": "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976",
+        "finish_reason": "length",
+        "completion_tokens": 64,
+        "token_strings_sha256": "228ae6d639285786d09d317dbf73a060589464ce097f9340949d3d18bccb464c",
+        "wall_s": 2.47
+      }
+    ],
+    "unique_outputs": 1,
+    "total_runs": 8,
+    "distinct_hashes": [
+      "2b0de610945afd51c0f37e4af049d599f9a29ea2cf433cddad2fa5d6d6d0f976"
+    ],
+    "first_divergence_char_vs_run0": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+28c57456db9220fbdde6041a20b97bebd141259b
+0
+1eeaec372dc97929045dfa8be2714203  vllm/_rocm_C.abi3.so
+torch: 2.13.0+rocm7.14.0
+hip: 7.14.60850
+vllm: 0.30.1rc1.dev538+g28c57456d
+vllm file: /root/wt-e2e-baseline/vllm/__init__.py
+device: AMD Radeon Pro W7900D
+HEALTH CHECK PASS: gptq_gemm_rdna3 + wmma ops present

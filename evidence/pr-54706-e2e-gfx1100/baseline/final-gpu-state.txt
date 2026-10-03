@@ -1,0 +1,11 @@
+=== final GPU state after baseline arm (Sat Oct  3 03:40:06 UTC 2026) ===
+GPU[0]		: VRAM Total Memory (B): 51522830336
+GPU[0]		: VRAM Total Used Memory (B): 41385820160
+65680 [vllm-omni] <defunct>
+71742 [vllm-omni] <defunct>
+505401 python -c import torch; import sys; sys.argv=['vllm']+sys.argv[1:]; from vllm.entrypoints.cli.main import main; main() serve /opt/models/gemma-3-27b-it-w4a16 --tensor-parallel-size 1 --dtype bfloat16 --gpu-memory-utilization 0.92 --max-model-len 8192 --host 127.0.0.1 --port 8000
+
+=== baseline arm summary ===
+      "exact_match,strict-match": 0.8362395754359363,
+      "exact_match_stderr,strict-match": 0.010193237214420975,
+post-shutdown VRAM used: 28004352 B (idle)

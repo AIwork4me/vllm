@@ -1,0 +1,8 @@
+python: 3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]
+torch: 2.13.0+rocm7.14.0
+hip: 7.14.60850
+cuda api: None
+device: AMD Radeon Pro W7900D
+device count: 1
+capability: (11, 0)
+exe: /opt/venv/bin/python

@@ -1,0 +1,17 @@
+AMD_ONECLICK_ORIGINAL_PATH=/usr/local/cargo/bin:/opt/rocm/llvm/bin:/opt/venv/bin:/opt/rocm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+BUILD_ENVIRONMENT=rocm
+HF_ASSETS_CACHE=/workspace/.cache/huggingface/assets
+HF_DATASETS_CACHE=/workspace/.cache/huggingface/datasets
+HF_ENDPOINT=https://hf-mirror.com
+HF_HOME=/workspace/.cache/huggingface
+HF_HUB_CACHE=/workspace/.cache/huggingface/hub
+HF_HUB_DISABLE_XET=1
+HIP_FORCE_DEV_KERNARG=1
+HSA_NO_SCRATCH_RECLAIM=1
+LD_LIBRARY_PATH=/opt/rocm/lib:/usr/local/lib:
+PATH=/root/.opencode/bin:/opt/amd-oneclick-runtime/bin:/usr/local/cargo/bin:/opt/rocm/llvm/bin:/opt/venv/bin:/opt/rocm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PYTORCH_ROCM_ARCH=gfx90a;gfx942;gfx950;gfx1100;gfx1101;gfx1200;gfx1201;gfx1150;gfx1151
+ROCM_PATH=/opt/rocm
+TOKENIZERS_PARALLELISM=false
+TORCH_BLAS_PREFER_HIPBLASLT=1
+TRANSFORMERS_CACHE=/workspace/.cache/huggingface/transformers

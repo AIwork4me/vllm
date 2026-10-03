@@ -1,0 +1,22 @@
+=== PR #54706 metadata (GitHub API, Sat Oct  3 01:12:41 UTC 2026) ===
+PR_SHA (head): 16ce8ac88955bc230793462d1c1b6ac77eea0e04
+BASE_SHA (base): 28c57456db9220fbdde6041a20b97bebd141259b
+
+=== wt-e2e-baseline ===
+28c57456db9220fbdde6041a20b97bebd141259b
+0
+
+=== wt-e2e-pr ===
+16ce8ac88955bc230793462d1c1b6ac77eea0e04
+0
+
+=== ancestry ===
+parent of first PR commit: 28c57456db9220fbdde6041a20b97bebd141259b
+
+=== diff stat BASE..PR ===
+ csrc/rocm/qdq_4_rdna3.cuh                                  | 106 +++++++++-------
+ tests/kernels/quantization/test_rdna3_w4a16_determinism.py | 585 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 1524 insertions(+), 266 deletions(-)
+
+=== merge-base with upstream/main ===
+28c57456db9220fbdde6041a20b97bebd141259b

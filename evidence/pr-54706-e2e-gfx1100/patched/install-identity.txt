@@ -1,0 +1,7 @@
+vllm: 0.30.1rc1.dev541+g16ce8ac88
+vllm file: /root/wt-e2e-pr/vllm/__init__.py
+worktree HEAD: 16ce8ac88955bc230793462d1c1b6ac77eea0e04
+git status dirty entries: 0
+_rocm_C.abi3.so md5: 9c51583dbfc2e9a8014518548fa7721b  /root/wt-e2e-pr/vllm/_rocm_C.abi3.so
+platform: RocmPlatform
+has gptq_gemm_rdna3: True

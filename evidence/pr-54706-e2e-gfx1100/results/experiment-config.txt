@@ -1,0 +1,41 @@
+# Frozen common experimental configuration — PR #54706 A/B on gfx1100
+# Both arms (BASE_SHA and PR_SHA) MUST run with exactly this configuration.
+
+GPU                     : 1x AMD Radeon Pro W7900D (gfx1100, 48 GB VRAM), TP=1
+ROCm                    : ROCk 6.16.13 / HIP runtime 1.21, hipcc HIP 7.14.60850 (ROCm 7.2.1 LLVM toolchain)
+PyTorch                 : 2.13.0+rocm7.14.0
+Python                  : 3.12.3 (/opt/venv)
+vLLM BASE_SHA           : 28c57456db9220fbdde6041a20b97bebd141259b (parent of first PR commit)
+vLLM PR_SHA             : 16ce8ac88955bc230793462d1c1b6ac77eea0e04 (PR #54706 head, GitHub-verified)
+Model path              : /opt/models/gemma-3-27b-it-w4a16
+Model source            : hf.co/RedHatAI/gemma-3-27b-it-quantized.w4a16
+Model revision          : 2b537554d6c6f6368945e8df4e5fb7bbbb5d56c9
+Quantization            : compressed-tensors W4A16, symmetric uint4b8, group_size=128, actorder=weight, targets=Linear
+Architecture            : Gemma3ForConditionalGeneration (VLM; text hidden_size=5376, 5376 % 128 == 0)
+Tokenizer path          : /opt/models/gemma-3-27b-it-w4a16 (same checkpoint; identical for server + lm-eval)
+dtype                   : bfloat16 (checkpoint default; left explicit)
+tensor parallel size    : 1
+gpu-memory-utilization  : 0.92
+max-model-len           : 8192
+max-num-seqs            : default (no override)
+attention backend       : vLLM auto-selection for this version (no env override); recorded from logs per arm
+compilation mode        : default vLLM graph/compile mode (no --enforce-eager); identical in both arms
+
+--- Fixed-input greedy determinism protocol ---
+requests per context    : 8 sequential identical completions against ONE server instance
+contexts                : ~448-token prompt (ctx512) and ~8128-token prompt (ctx8192)
+sampling                : temperature=0 (greedy), max_tokens=64, seed=1234
+prompts                 : byte-identical files shared by both arms (prompts/ctx512.txt, prompts/ctx8192.txt)
+
+--- lm-eval ---
+lm-eval                 : lm-eval 0.4.13 (lm_eval package, /opt/venv) — pinned, same for both arms
+task                    : gsm8k (harness default: 5-shot, exact_match with strict-match + flexible-extract filters)
+limit                   : none (full test split; expected 1319 examples — verified from harness output)
+model mode              : local-completions (OpenAI-compatible HTTP API of the served model)
+server                  : vllm serve on http://127.0.0.1:8000 (v1/completions)
+log_samples             : yes (enables paired per-example A/B comparison)
+dataset                 : openai/gsm8k harness task as shipped with lm-eval 0.4.13
+
+--- A/B isolation ---
+Only difference between arms: the vLLM git revision (BASE_SHA vs PR_SHA = 3 commits, 4 RDNA3 kernel csrc files + 1 test file; zero Python source changes).
+Both arms: same venv, same ROCm/PyTorch, same build procedure (PYTORCH_ROCM_ARCH=gfx1100, pip install -e . --no-deps --no-build-isolation), same model files, same server flags, same lm-eval invocation.

@@ -1,0 +1,8 @@
+vllm: 0.30.1rc1.dev538+g28c57456d
+vllm file: /root/wt-e2e-baseline/vllm/__init__.py
+worktree HEAD: 28c57456db9220fbdde6041a20b97bebd141259b
+_rocm_C.abi3.so md5: 83500bc96b72c7bce4cf4cc770dea090  /root/wt-e2e-baseline/vllm/_rocm_C.abi3.so
+platform: RocmPlatform
+has gptq_gemm_rdna3: True
+---
+[note] git status dirty entries at serve time: 0 (verified by independent subagent 2026-10-03; this identity file was written by an earlier script revision that omitted the line)

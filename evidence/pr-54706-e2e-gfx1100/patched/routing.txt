@@ -1,0 +1,2 @@
+      2 Using RDNA3W4A16LinearKernel
+(EngineCore pid=511186) INFO 10-03 03:48:13 [rocm.py:860] Using Flash Attention (Triton backend) for ViT model on RDNA.

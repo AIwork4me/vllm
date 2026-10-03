@@ -1,0 +1,4 @@
+=== final GPU state after PR arm (Sat Oct  3 04:40:21 UTC 2026) ===
+GPU[0]		: VRAM Total Memory (B): 51522830336
+GPU[0]		: VRAM Total Used Memory (B): 41329291264
+post-shutdown VRAM used: (see above)

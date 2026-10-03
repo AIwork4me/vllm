@@ -1,0 +1,17 @@
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         3.5T  1.3T  2.1T  38% /
+/dev/loop0       98G   84G  9.8G  90% /workspace
+tmpfs           4.0G  1.7G  2.4G  42% /tmp
+
+               total        used        free      shared  buff/cache   available
+Mem:           503Gi        61Gi        42Gi       2.8Gi       406Gi       442Gi
+Swap:             0B          0B          0B
+
+
+
+============================ ROCm System Management Interface ============================
+================================== Memory Usage (Bytes) ==================================
+GPU[0]		: VRAM Total Memory (B): 51522830336
+GPU[0]		: VRAM Total Used Memory (B): 28004352
+==========================================================================================
+================================== End of ROCm SMI Log ===================================
